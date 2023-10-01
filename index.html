@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orario Scolastico</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+    <style>
+        /* Aggiungi stili CSS personalizzati qui */
+        /*
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #696973
+        }
+
+        header {
+            background-color: transparent;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .btn {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+        .btn-giorno {
+            background-color: #ab46ff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+
+        .btn-giorno:hover {
+            cursor: default;
+        }
+
+        .schedule {
+            padding: 20px;
+            border: 1px solid #ccc;
+            color: white;
+        }*/
+    </style>
+
+</head>
+<body>
+<header>
+    <h1>Orario Scolastico</h1>
+</header>
+
+<div class="container">
+    <div class="row">
+        <!-- Visualizzazione su dispositivi desktop -->
+        <div class="col-lg-9">
+            <!-- Inserisci qui l'orario completo della settimana -->
+            <div class="schedule" id="weekSchedule">
+                <!-- Qui verranno visualizzati gli orari dei giorni -->
+            </div>
+        </div>
+
+        <!-- Visualizzazione su dispositivi mobili -->
+        <div class="col-lg-3">
+            <div class="btn-group">
+                <button class="btn" id="prevDay">Giorno precedente</button>
+                <span id="currentDayLabel" class="btn-giorno"></span>
+                <button class="btn" id="nextDay">Giorno successivo</button>
+            </div>
+            <div class="schedule" id="currentDaySchedule">
+                <!-- Qui verrà visualizzato l'orario del giorno -->
+            </div>
+        </div>
+    </div>
+</div>
+<script src="scripts/script.js"></script>
+</body>
+</html>
