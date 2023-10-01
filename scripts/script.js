@@ -1,85 +1,137 @@
 const schedule = {
     "domenica": [
         {
-            "giorno": "domenica",
-            "ora": "08:00 - 09:30",
-            "materia": "Domenica"
-        },
-        {
-            "ora": "09:45 - 11:15",
+            "ora": "08:15 - 09:15",
             "materia": "Storia"
         },
         {
-            "ora": "09:45 - 11:15",
-            "materia": "Latino"
-        }
-        // ... altre lezioni del lunedì
+            "ora": "09:15 - 10:10",
+            "materia": "Storia"
+        },
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Storia"
+        },
+        {
+            "ora": "11:20 - 12:20",
+            "materia": "Storia"
+        },
     ],
     "lunedì": [
         {
-            "ora": "08:00 - 09:30",
-            "materia": "Lunedì"
-        },
-        {
-            "ora": "09:45 - 11:15",
+            "ora": "08:15 - 09:15",
             "materia": "Storia"
         },
-        // ... altre lezioni del lunedì
+        {
+            "ora": "09:15 - 10:10",
+            "materia": "Italiano"
+        },
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Scienze"
+        },
+        {
+            "ora": "11:20 - 12:20",
+            "materia": "Latino"
+        },
     ],
     "martedì": [
         {
-            "ora": "08:00 - 09:30",
-            "materia": "Martedì"
+            "ora": "08:15 - 09:15",
+            "materia": "Scienze"
         },
         {
-            "ora": "09:45 - 11:15",
-            "materia": "asdgf"
+            "ora": "09:15 - 10:10",
+            "materia": "Educazione Fisica"
         },
-        // ... altre lezioni del martedì
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Italiano"
+        },
+        {
+            "ora": "11:20 - 12:20",
+            "materia": "Inglese"
+        },
+        {
+            "ora": "12:20 - 13:25",
+            "materia": "Matematica"
+        },
     ],
     "mercoledì": [
         {
-            "ora": "08:00 - 09:30",
-            "materia": "Mercoledì"
+            "ora": "08:15 - 09:15",
+            "materia": "Italiano"
         },
         {
-            "ora": "09:45 - 11:15",
-            "materia": "Stodsavria"
+            "ora": "09:15 - 10:10",
+            "materia": "Italiano"
         },
-        // ... altre lezioni del lunedì
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Latino"
+        },
+        {
+            "ora": "11:20 - 12:20",
+            "materia": "Matematica"
+        },
+        {
+            "ora": "12:20 - 13:25",
+            "materia": "Coding"
+        },
     ],
     "giovedì": [
         {
-            "ora": "08:00 - 09:30",
-            "materia": "Giovedì"
+            "ora": "08:15 - 09:15",
+            "materia": "Inglese"
         },
         {
-            "ora": "09:45 - 11:15",
-            "materia": "Stodsavria"
+            "ora": "09:15 - 10:10",
+            "materia": "Religione"
         },
-        // ... altre lezioni del lunedì
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Educazione Fisica"
+        },
+        {
+            "ora": "11:20 - 12:20",
+            "materia": "Disegno tecnico (da confermare)"
+        },
     ],
     "venerdì": [
         {
-            "ora": "08:00 - 09:30",
-            "materia": "Venerdì"
+            "ora": "08:15 - 09:15",
+            "materia": "Matematica"
         },
         {
-            "ora": "09:45 - 11:15",
-            "materia": "Stodsavria"
+            "ora": "09:15 - 10:10",
+            "materia": "Matematica"
         },
-        // ... altre lezioni del lunedì
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Storia dell'arte"
+        },
+        {
+            "ora": "11:20 - 12:20",
+            "materia": "Latino"
+        },
+        {
+            "ora": "12:20 - 13:25",
+            "materia": "Storia"
+        },
     ],
     "sabato": [
         {
-            "ora": "08:00 - 09:30",
-            "materia": "Sabato"
+            "ora": "08:15 - 09:15",
+            "materia": "Storia"
         },
         {
-            "ora": "09:45 - 11:15",
-            "materia": "Stodsavria"
+            "ora": "09:15 - 10:10",
+            "materia": "Inglese"
         },
-        // ... altre lezioni del lunedì
+        {
+            "ora": "10:10 - 11:20",
+            "materia": "Matematica"
+        },
     ],
 
 
