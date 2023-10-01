@@ -2,19 +2,19 @@ const schedule = {
     "domenica": [
         {
             "ora": "08:15 - 09:15",
-            "materia": "Storia"
+            "materia": "Riposo"
         },
         {
             "ora": "09:15 - 10:10",
-            "materia": "Storia"
+            "materia": "Riposo"
         },
         {
             "ora": "10:10 - 11:20",
-            "materia": "Storia"
+            "materia": "Riposo"
         },
         {
             "ora": "11:20 - 12:20",
-            "materia": "Storia"
+            "materia": "Riposo"
         },
     ],
     "lunedì": [
