@@ -24,7 +24,7 @@ const schedule = {
         },
         {
             "ora": "09:15 - 10:10",
-            "materia": "Italiano"
+            "materia": "Antologia"
         },
         {
             "ora": "10:10 - 11:20",
@@ -46,7 +46,7 @@ const schedule = {
         },
         {
             "ora": "10:10 - 11:20",
-            "materia": "Italiano"
+            "materia": "Grammatica"
         },
         {
             "ora": "11:20 - 12:20",
@@ -60,11 +60,11 @@ const schedule = {
     "mercoledì": [
         {
             "ora": "08:15 - 09:15",
-            "materia": "Italiano"
+            "materia": "Antologia"
         },
         {
             "ora": "09:15 - 10:10",
-            "materia": "Italiano"
+            "materia": "Mito ed Epica"
         },
         {
             "ora": "10:10 - 11:20",
